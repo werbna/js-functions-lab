@@ -240,6 +240,7 @@ Complete the exercise in the space below:
 */
 
 // "https://shorturl.at/26uUP" "https://shorturl.at/olWjB" "https://shorturl.at/Ovk2n"
+//below you can use the rest parameter to shorten the numArgs and thus the beauty that is the commented out version.
 
 //const numArgs = (...args) =>  args.length
 
