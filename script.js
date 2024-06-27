@@ -189,7 +189,7 @@ const basicCalculator = (num1, num2, operation) => {
       return num1 * num2;
     case 'divide':
       return num1 / num2;
-    break
+      break
     default:
       return `Please use a math operation`;
   }
@@ -210,22 +210,42 @@ and 70-79 is a 'C', 60-69 is a 'D' and anything lower than a 60 is an 'F'.
 Example: calculateGrade(100) should return A.
 
 Complete the exercise in the space below:
-*/
+*/ 
+//
 const calculateGrade = (grade) => {
   switch (true) {
-    case (grade>=90):
+    case (grade >= 90):
       return 'A';
-    case (grade>=80):
+    case (grade >= 80):
       return 'B';
-    case (grade>=70):
+    case (grade >= 70):
       return 'C';
-    case (grade >=60):
+    case (grade >= 60):
       return 'D';
-    break
+      break
     default:
-      return 'F';
+      return 'F';5
   }
 }
 
-
 console.log('Exercise 10 Result:', calculateGrade(85));
+
+/*
+Exercise 12: numArgs()
+
+Challenge yourself with numArgs. 
+This function should return the count of arguments passed to it when called.
+
+Complete the exercise in the space below:
+*/
+
+// "https://shorturl.at/26uUP" "https://shorturl.at/olWjB" "https://shorturl.at/Ovk2n"
+
+//const numArgs = (...args) =>  args.length
+
+function numArgs() {
+  return arguments.length;
+}
+
+
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
